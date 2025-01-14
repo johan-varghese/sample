@@ -1,3 +1,11 @@
 int main() {
   printf("Hello World");
+  int num = 5;
+  increment(num);
+  printf(num);
+}
+
+void increment(int  & i){
+  i++;
+  return i;
 }
